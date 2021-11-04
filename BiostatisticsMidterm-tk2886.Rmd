@@ -31,6 +31,7 @@ prob
 ```
 *The probability that in the next month the hospital's patients will have exactly 2 unexplained infections is:* **`r prob`**. 
 
+\newpage
 
 ## **Problem 2**
 ```{r  echo=FALSE, fig.align="center", out.width = '70%'}
@@ -42,9 +43,24 @@ knitr::include_graphics("problem2.jpg")
 \newpage
 
 
-## **Problem 4**
-```{r}
-dbinom(4, 10, 0.5) + dbinom(6, 10, 0,5)
+## **Problem 3**
+```{r  echo=FALSE, fig.align="center", out.width = '70%'}
+knitr::include_graphics("problem3.jpg")
+```
+
+
+\newpage
+
+## **Problem 5a**
+```{r  echo=FALSE, fig.align="center", out.width = '70%'}
+knitr::include_graphics("problem5.jpg")
+```
+
+\newpage
+
+## **Problem 5b**
+```{r  echo=FALSE, fig.align="center", out.width = '70%'}
+knitr::include_graphics("problem5b.jpg")
 ```
 
 
