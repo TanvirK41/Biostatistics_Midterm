@@ -1,6 +1,6 @@
 ---
-title: "BiostatisticsMidterm"
-author: Tanvir Khan (tk2886)
+title: "Biostatistics I - Midterm (Fall 2021)"
+author: Tanvir Khan (UNI - tk2886)
 date: 11/04/2021
 output: pdf_document
 ---
@@ -83,12 +83,12 @@ knitr::include_graphics("problem5b.jpg")
 \newpage
 
 
-## **Problem 6**
+## **Problem 6a**
 ```{r  echo=FALSE, fig.align="center", out.width = '60%'}
 knitr::include_graphics("problem6.jpg")
 ```
 
-
+## **Problem 6b and 6c**
 ```{r  echo=FALSE, fig.align="center", out.width = '50%'}
 knitr::include_graphics("problem6b.jpg")
 ```
