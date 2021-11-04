@@ -72,7 +72,8 @@ knitr::include_graphics("problem5b.jpg")
 knitr::include_graphics("problem6.jpg")
 ```
 
-```{r  echo=FALSE, fig.align="center", out.width = '70%'}
+
+```{r  echo=FALSE, fig.align="center", out.width = '100%'}
 knitr::include_graphics("problem6b.jpg")
 ```
 
@@ -80,7 +81,14 @@ knitr::include_graphics("problem6b.jpg")
 \newpage
 
 
+## **Problem 7a**
+```{r  echo=FALSE, fig.align="center", out.width = '60%'}
+knitr::include_graphics("problem7a.jpg")
+```
 
-
+## **Problem 7b**
+```{r  echo=FALSE, fig.align="center", out.width = '60%'}
+knitr::include_graphics("problem7b.jpg")
+```
 
 
