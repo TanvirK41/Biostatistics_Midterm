@@ -82,8 +82,13 @@ knitr::include_graphics("problem6.jpg")
 ```
 
 
-```{r  echo=FALSE, fig.align="center", out.width = '100%'}
+```{r  echo=FALSE, fig.align="center", out.width = '50%'}
 knitr::include_graphics("problem6b.jpg")
+```
+
+
+```{r  echo=FALSE, fig.align="center", out.width = '60%'}
+knitr::include_graphics("problem6d.jpg")
 ```
 
 
