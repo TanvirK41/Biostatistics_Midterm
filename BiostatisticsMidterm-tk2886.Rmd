@@ -1,5 +1,7 @@
 ---
-title: "BiostatisticsMidterm-tk2886"
+title: "BiostatisticsMidterm"
+author: Tanvir Khan (tk2886)
+date: 11/04/2021
 output: pdf_document
 ---
 
