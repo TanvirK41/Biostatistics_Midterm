@@ -92,3 +92,13 @@ knitr::include_graphics("problem7b.jpg")
 ```
 
 
+\newpage
+
+
+## **Problem 8**
+
+*For problem 8, I'll be using a **Chi-Squared:Test of Independence**. I chose to use this statistical test because the problem states we need to determine if there is association between the treatment group and dropout rates and we may use Chi-Squared: Test of Independence to test for independence or association of the rows and column variables. For this problem, I am interested if one variable's value provides any information about the value of the other variable, i.e. are the two variables independent or dependent/associated? Also the problem indicates to create "table of expected values" (contingency table) and we have learned these tables are created for Chi-Square test.*
+```{r  echo=FALSE, fig.align="center", out.width = '40%'}
+knitr::include_graphics("problem8.jpg")
+```
+
