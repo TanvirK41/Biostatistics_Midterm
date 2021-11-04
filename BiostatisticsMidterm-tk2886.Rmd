@@ -37,7 +37,7 @@ prob
 ```{r  echo=FALSE, fig.align="center", out.width = '70%'}
 knitr::include_graphics("problem2.jpg")
 ```
-*The probability that a random chosen subject will not develop CHD, given that he had an initial serum cholesterol level below or equal 200 is:* **0.86**. 
+*The probability that a random chosen subject will not develop CHD, given that he had an initial serum cholesterol level below or equal 200 is:* **0.8630** *or 86%*. 
 
 
 \newpage
