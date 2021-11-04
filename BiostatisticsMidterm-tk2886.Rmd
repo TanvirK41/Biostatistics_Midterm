@@ -29,7 +29,7 @@ knitr::include_graphics("problem1b.jpg")
 prob = dpois(2, 7)
 prob
 ```
-*The probability that in the next month the hospital's patients will have exactly 2 unexplained infections is:* **`r prob`**. 
+*The probability that in the next month the hospital's patients will have exactly 2 unexplained infections is:* **`r prob`** *or 2.23%.*
 
 \newpage
 
@@ -54,15 +54,20 @@ knitr::include_graphics("problem3.jpg")
 
 ## **Problem 4**
 ```{r  echo=FALSE, fig.align="center", out.width = '70%'}
-knitr::include_graphics("problem3.jpg")
+knitr::include_graphics("problem4.jpg")
 ```
 
+## We also may use R code to get the value:
+```{r}
+binom_data = dbinom(4, 10, 0.5) + dbinom(6, 10, 0.5)
+```
+*A couple has 10 children and the probability of the event of having exactly 4 boys or exactly 6 boys or exactly 6 girls is:* **`r binom_data`** *or 41%.*
 
 \newpage
 
 
 ## **Problem 5a**
-```{r  echo=FALSE, fig.align="center", out.width = '60%'}
+```{r  echo=FALSE, fig.align="center", out.width = '50%'}
 knitr::include_graphics("problem5.jpg")
 ```
 
@@ -87,10 +92,18 @@ knitr::include_graphics("problem6b.jpg")
 ```
 
 
+\newpage
+
+## **Problem 6d**
 ```{r  echo=FALSE, fig.align="center", out.width = '60%'}
 knitr::include_graphics("problem6d.jpg")
 ```
+**For problem 6d, we may use Z-table, or R code.** 
+```{r}
+ptsd_prob = 1-pnorm(45, mean = 42, sd = 7)
+```
 
+**Interpretation**: *The probability that the mean PTSD score in a sample of 40 soldiers is greater than 45 is `r ptsd_prob` or 33.4%*. 
 
 \newpage
 
