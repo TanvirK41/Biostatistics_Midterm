@@ -52,6 +52,15 @@ knitr::include_graphics("problem3.jpg")
 \newpage
 
 
+## **Problem 4**
+```{r  echo=FALSE, fig.align="center", out.width = '70%'}
+knitr::include_graphics("problem3.jpg")
+```
+
+
+\newpage
+
+
 ## **Problem 5a**
 ```{r  echo=FALSE, fig.align="center", out.width = '60%'}
 knitr::include_graphics("problem5.jpg")
